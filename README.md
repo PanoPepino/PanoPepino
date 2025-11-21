@@ -1,12 +1,12 @@
-<h1 align="center">Hi, this is Pano (Pepino) 👋</h1>
+<h1 align="center">Hi, this is Pano (Pepino)</h1>
 <h3 align="center">
-  🧠 Theoretical Physicist  
+  Theoretical Physicist  
   <a href="https://inspirehep.net/authors/1804691?ui-citation-summary=true" target="_blank">
-    <img src="https://img.shields.io/badge/📚_InspireHEP-blue?style=flat" alt="InspireHEP" height="20" style="vertical-align: middle;"/>
+    <img src="https://img.shields.io/badge/📚-InspireHEP-blue?style=flat" alt="InspireHEP" height="20" style="vertical-align: middle;"/>
   </a>
   | ✨ Manim/Python Aficionado | 💻 HTML Apprentice | 
   <a href="https://panopepino.github.io/web_page/" target="_blank">
-    <img src="https://img.shields.io/badge/🌐_Webpage-green?style=flat" alt="Webpage" height="20"style="vertical-align: middle;"/>
+    <img src="https://img.shields.io/badge/🌐-Webpage-green?style=flat" alt="Webpage" height="20" style="vertical-align: middle;"/>
   </a>
 </h3>
 
