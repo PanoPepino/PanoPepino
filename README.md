@@ -1,4 +1,3 @@
-
 <h1 align="center">Hi, this is Pano (Pepino) 👋</h1>
 <h3 align="center">
   🧠 Theoretical Physicist  
