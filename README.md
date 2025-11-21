@@ -34,7 +34,7 @@
 
 ### 💖 Support My Work
 
-If you find my projects helpful, consider supporting me:
+If you find my projects helpful, consider supporting me. Thank you!
 
 <p align="center">
   <a href="https://www.buymeacoffee.com/panopepino" target="_blank">
