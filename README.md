@@ -1,5 +1,5 @@
-<h1 align="center">Hi, I'm Panizo (PanoPepino) 👋</h1>
-<h3 align="center">PhD Physicist → Data Scientist/ RD Engineer/ Quant. Analyst</h3>
+<h1 align="center">Hello There, I'm Panizo (PanoPepino) </h1>
+<h3 align="center">PhD Physicist</h3>
 <h4 align="center">High-Dimensional Analysis · Predictive Modelling · Machine Learning</h4>
 
 <p align="center">
@@ -18,7 +18,6 @@
 
 PhD with **7+ years** applying mathematics, physics, data science and programming to deliver **quantitative insights, predictive models and robust solutions**.
 Expert in **high-dimensional analysis**, parameter estimation and algorithm development.
-Actively looking for roles in Data Science, R&D Engineering and Quantitative Finance.
 
 
 ## 🚀 Featured Projects
@@ -30,25 +29,24 @@ Scrapes job postings, calls an LLM to extract structured info and tailor cover l
 
 
 
-### 🎬 [Beanim](https://github.com/PanoPepino/beanim) · ⭐ 30
-Open-source **Python framework** for interactive mathematical animations in professional slides.
-Built on Manim; used in **25+ international conferences** for complex science communication.
+### 🎬 [Beanim Ecosystem](https://github.com/PanoPepino/beanim) · ⭐ 30
+Open-source **Python framework** for interactive mathematical animations in professional slides and/or scientific videos. Built on Manim 
+-  [Beanim](https://github.com/PanoPepino/beanim): Design for homogenisation of slides templates. used in **30+ international conferences and seminars** for complex science communication.
+
+- [Digital_Presenter](https://github.com/PanoPepino/digital_presenter): Simple digital companion to use in your presentations/videos, to point at concepts/equations and react to them.
+
+- [String_Cosmo](https://github.com/PanoPepino/string_cosmo_comunication): Collection of complex and reusable animations related to string cosmology research. 
+
 `Python` `Manim` `Open Source`
 
-### 🎮 [End-to-End ML on Gaming Dataset](https://github.com/PanoPepino/ml_pokemon)
-End-to-end ML pipeline on a 1K+ row structured dataset with mixed targets.
+### 🎮 [PokéML](https://github.com/PanoPepino/ml_pokemon)
+End-to-end ML pipeline on a 1K+ row structured dataset (Pokédex) with mixed targets. Aim to predict total stats (`bst`) of new Pokémon to appear in the next games.
 Full EDA, 10+ feature engineering steps — Scikit-learn / XGBoost / CatBoost.
 Cloud deployment on Hugging Face in progress.
 `Python` `Scikit-learn` `XGBoost` `CatBoost` `Pandas` `Feature Engineering`
 
 
-## 🛠️ Skills & Tools
-
-**Data Science & ML:** Python · NumPy · SciPy · Pandas · Scikit-learn · XGBoost · CatBoost · Seaborn · Matplotlib · SQL · Jupyter
-
-**Mathematics:** Linear Algebra · PDEs · Stochastic Processes · High-Dimensional Analysis · Differential Geometry · Time Series · Parameter Estimation
-
-**Software & DevOps:** Git/GitHub · Bash · LaTeX · MATLAB · Mathematica · Sphinx · Agile
+## 🛠️ Tools I use
 
 <p align="center">
   <a href="https://skillicons.dev">
@@ -60,15 +58,7 @@ Cloud deployment on Hugging Face in progress.
 
 
 
-## 💼 Experience
-
-**Postdoctoral Researcher** — Kyoto University, Japan *(2024–2026)*
-Validated cosmological models against observational data; led international collaborations; 20+ presentations.
-
-**PhD Researcher** — Uppsala Universitet, Sweden *(2019–2024)*
-Built predictive models → 5 publications. Supervised 3 theses; Teaching Assistant for 3 courses.
-
-
+---
 
 <p align="center">
   If you find my work useful, consider supporting it ☕<br/>
