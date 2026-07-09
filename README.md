@@ -29,12 +29,13 @@ It will scrape job postings, calls an LLM to extract structured info and persona
 `Python` `REST API` `Click` `LLM` `LaTeX` `pdflatex` `CSV Tracking`
 
 ### [MTGA Data Ecosystem](https://github.com/PanoPepino/mtga_data_bot)
-End-to-end **data collection and analysis pipeline** for competitive MTG Arena players. Designed around a twin repository architecture: a live data collector and a visualisation layer.
+End-to-end **data collection and analysis pipeline** for competitive MTG Arena players. Designed around a triple repository architecture: a live data collector, a web scraper and a visualisation layer.
 
 - [mtga_data_bot](https://github.com/PanoPepino/mtga_data_bot): Async Discord bot that collects competitive match data (Ladder & Metagame Challenge) from server members via slash commands and stores it in per-server CSV files on a cloud server. Supports multi-server deployment, admin export commands, and environment-based configuration.
+- [mtga_scraper]((https://github.com/PanoPepino/mtga_scraper)): Simple scraper to collect competitive match data from tournaments posted in webpages.
 - [mtga_viz](https://github.com/PanoPepino/mtga_viz): Python package for competitive data analysis and dashboard construction from bot-collected data. Targets three competitive modes: Ladder, Metagame, and Tournament. Transforms competitive databases into insightful graphics for better inform decisions.
 
-`Python` `asyncio` `REST API` `CSV` `Data Pipeline` `Dashboard`
+`Python` `asyncio` `REST API` `CSV` `Data Pipeline` `Dashboard` `scraper`
 
 ### [Beanim Ecosystem](https://github.com/PanoPepino/beanim) 
 Open-source **Python framework** for interactive mathematical animations in professional slides and scientific videos. Built on Manim.
