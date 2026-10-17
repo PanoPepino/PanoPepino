@@ -34,10 +34,9 @@ Source code is private.
 
 ### [PokéML](https://github.com/PanoPepino/pokeml)
 
-A machine learning pipeline for predicting Pokémon base stat
-totals. Compares gradient-boosting models using validation
-across generations. Results are retrospective, with no untouched
-final test.
+This is a machine learning pipeline for predicting next generation
+Pokémon stats. It compares gradient-boosting models using validation
+across generations. Results are retrospective, with no untouched final test.
 
 `Python` `pandas` `scikit-learn` `CatBoost` `LightGBM` `XGBoost` `Jupyter`
 
