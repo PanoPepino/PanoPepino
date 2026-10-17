@@ -1,0 +1,59 @@
+name: Synchronise profile projects
+
+on:
+  push:
+    paths:
+      - content/**
+      - scripts/sync_projects.py
+      - tests/**
+      - .github/workflows/sync-projects.yml
+  repository_dispatch:
+    types: [projects-updated]
+  workflow_dispatch:
+  schedule:
+    - cron: '17 * * * *'
+
+permissions:
+  contents: write
+
+concurrency:
+  group: profile-projects
+  cancel-in-progress: false
+
+jobs:
+  sync:
+    if: github.ref == format('refs/heads/{0}', github.event.repository.default_branch)
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Check generator safeguards
+        run: python -m unittest discover -s tests -v
+      - name: Render and commit changed profile section
+        env:
+          GH_TOKEN: ${{ github.token }}
+          TARGET_BRANCH: ${{ github.event.repository.default_branch }}
+        shell: bash
+        run: |
+          set -euo pipefail
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          for attempt in 1 2; do
+            git fetch origin "$TARGET_BRANCH"
+            git checkout --detach FETCH_HEAD
+            python scripts/sync_projects.py --remote
+            if git diff --quiet -- README.md; then
+              exit 0
+            fi
+            git add README.md
+            git commit -m 'Synchronise approved project summaries'
+            if git push origin "HEAD:$TARGET_BRANCH"; then
+              exit 0
+            fi
+            echo "Push rejected; refetching and rendering once more."
+          done
+          echo 'Profile push failed after retry; no force push performed.' >&2
+          exit 1

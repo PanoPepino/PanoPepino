@@ -21,40 +21,65 @@ My background in modelling complex systems has taught me to combine rigorous ana
 
 ## Selected Projects
 
-### [dAIana](https://github.com/PanoPepino/Daiana)
-Terminal CLI tool to **automatise the full job application workflow**: from job discovery to tailored PDF delivery.
+<!-- PROJECTS:START -->
 
-It will scrape job postings, calls an LLM to extract structured info and personalises your modular CV, then compiles a LaTeX PDF and logs the application to a CSV tracker. All in one `daiana hunt` command.
+### [Da Timeless](https://www.datimeless.com/)
 
-`Python` `REST API` `Click` `LLM` `LaTeX` `pdflatex` `CSV Tracking`
+A competitive MTG Arena data platform I built across collection,
+validation, PostgreSQL storage, analytics, Discord and React.
+Covers tournament and league results and Metagame Challenge runs.
+Source code is private.
 
-### [MTGA Data Ecosystem](https://github.com/PanoPepino/mtga_data_bot)
-End-to-end **data collection and analysis pipeline** for competitive MTG Arena players. Designed around a triple repository architecture: a live data collector, a web scraper and a visualisation layer.
+`Python` `PostgreSQL` `dbt` `FastAPI` `asyncio` `React` `TypeScript` `Cloudflare R2`
 
-- [mtga_data_bot](https://github.com/PanoPepino/mtga_data_bot): Async Discord bot that collects competitive match data (Ladder & Metagame Challenge) from server members via slash commands and stores it in per-server CSV files on a cloud server. Supports multi-server deployment, admin export commands, and environment-based configuration.
-- [mtga_scraper](https://github.com/PanoPepino/mtga_scraper): Simple scraper to collect competitive match data from tournaments posted in webpages.
-- [mtga_viz](https://github.com/PanoPepino/mtga_viz): Python package for competitive data analysis and dashboard construction from bot-collected data. Targets three competitive modes: Ladder, Metagame, and Tournament. Transforms competitive databases into insightful graphics for better inform decisions.
+### [PokéML](https://github.com/PanoPepino/pokeml)
 
-`Python` `asyncio` `REST API` `CSV` `Data Pipeline` `Dashboard` `scraper`
+A machine learning pipeline for predicting Pokémon base stat
+totals. Compares gradient-boosting models using validation
+across generations. Results are retrospective, with no untouched
+final test.
 
-### [Beanim Ecosystem](https://github.com/PanoPepino/beanim) 
-Open-source **Python framework** for interactive mathematical animations in professional slides and scientific videos. Built on Manim.
+`Python` `pandas` `scikit-learn` `CatBoost` `LightGBM` `XGBoost` `Jupyter`
 
-- [Beanim](https://github.com/PanoPepino/beanim): Slide template homogenisation framework mimicking beamer in Latex, deployed at **30+ international conferences** for scientifical communication.
-- [Digital_Presenter](https://github.com/PanoPepino/digital_presenter): Lightweight digital companion for live presentations. It can point at objects in scene and reacts to them in real time.
-- [String_Cosmo](https://github.com/PanoPepino/string_cosmo_comunication): Collection of reusable animations for string cosmology research communication.
+### [dAIana](https://github.com/PanoPepino/dAIana)
 
-`Python` `Manim` `Open Source`
+A Python CLI for tailoring user-written LaTeX CV and cover-letter
+modules to job postings. Combines language model APIs, reviewable
+content selection, PDF compilation and CSV-based tracking.
 
+`Python` `Typer` `Rich` `Language model APIs` `LaTeX` `CSV`
 
-### 🎮 [PokéML](https://github.com/PanoPepino/ml_pokemon)
-End-to-end ML pipeline on a 1K+ row structured dataset (Pokédex) with mixed targets. Predicts total stats (`bst`) of new Pokémon ahead of release.
-Full EDA, 10+ feature engineering steps, multi-model approach: Scikit-learn / XGBoost / CatBoost.
+### Manim Ecosystem
 
+A collection of Manim libraries: BeAnim for presentation structure
+and styling, Digital Presenter for animated companions, and
+String Cosmo for physics visualisations.
 
-`Python` `Scikit-learn` `XGBoost` `CatBoost` `Pandas` `Feature Engineering`
+`Python` `Manim` `Manim Slides` `LaTeX`
 
+#### [BeAnim](https://github.com/PanoPepino/beanim)
 
+Create Beamer-like styles for Manim presentations with shared
+themes and reusable titles, equations, references, tables and images.
+
+`Python` `Manim` `Manim Slides` `LaTeX`
+
+#### [Digital Presenter](https://github.com/PanoPepino/digital_presenter)
+
+Animated creatures that help present content in videos, with
+pointing, expressions and dialogue controlled through Python
+or CSV-based scripts.
+
+`Python` `Manim` `NumPy` `CSV-based scripting`
+
+#### [String Cosmo](https://github.com/PanoPepino/string_cosmo_communication)
+
+Reusable Manim objects, plots and tables for communicating
+string theory and braneworld cosmology.
+
+`Python` `Manim` `NumPy` `LaTeX`
+
+<!-- PROJECTS:END -->
 
 ## 🛠️ Tools I use
 
